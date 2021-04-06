@@ -7,7 +7,7 @@ import { Quiz, Landing, Result, Loading } from "pages";
 import { QUIZZES } from "../constants";
 import { Helmet } from "react-helmet";
 import favicon from "assets/images/favicon.ico";
-import elon from "assets/images/elon.jpg";
+
 
 function App() {
 	const [score, setScore] = useState(0);
